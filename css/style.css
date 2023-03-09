@@ -176,7 +176,7 @@ footer
 {
     header
     {
-        padding: 2% 5%;
+        padding: 4% 5%;
         position: sticky;
         top: 0px;
     }
@@ -187,7 +187,7 @@ footer
     main .hero{
         background: none;
         flex-direction: column;
-        padding: 5% 0%;
+        padding: 2% 0%;
         text-align: center;
     }
     .header-container-homepage
@@ -209,6 +209,7 @@ footer
     .services-container
     {
         margin: 20px 5%;
+        padding: 0% 0%;
     }
     .service-container1
     {
