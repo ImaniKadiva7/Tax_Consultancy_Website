@@ -29,6 +29,7 @@ header nav ul li
 {
     list-style: none;
     margin-right: 20px;
+    white-space: nowrap;
 }
 header nav ul li a
 {
@@ -169,6 +170,13 @@ footer
     padding: 1% 0%;
     margin-top: 12px;
 }
+/*=============================================================*/
+
+/*=================== toggle ===================*/
+.toggle
+{
+    display: none;
+}
 
 /*================== Phone Styling Section =========================================*/
 
@@ -179,10 +187,13 @@ footer
         padding: 4% 5%;
         position: sticky;
         top: 0px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
     }
     header nav
     {
-        display: none;
+        /*display: none;*/
     }
     main .hero{
         background: none;
@@ -225,6 +236,12 @@ footer
     footer
     {
         padding: 3% 0%;
+    }
+    .item
+    {
+        width: 100%;
+        text-align: center;
+        order: 1;
     }
 }
  
