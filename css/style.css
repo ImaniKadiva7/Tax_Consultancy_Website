@@ -50,19 +50,19 @@ main .hero
     background-color: #1F2937;
     width: 100%;
 }
-main .hero picture
+main .hero .picture
 {
     margin-right: 15%;  
 }
 main .hero picture img
 {
-    width: 550px;
+    width: 100%;
     height: auto;
     border-radius: 5%;
 }
 main .hero .header-container-homepage
 {
-    margin-right: 10px;
+    padding: 1% 5%;
     padding-top: 10px;
 }
 .header-container-homepage h1, 
@@ -116,6 +116,7 @@ main .hero .header-container-homepage
     background-color: #F6F4F5;
     padding: 2% 2%;
     border-radius: 10px;
+    flex: 1;
 }
 .service-class h3, .service-class p
 {
@@ -151,5 +152,78 @@ main .hero .header-container-homepage
     background-position: right center; /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
+}
+.left-service
+{
+    margin-right: 20px;
+}
+/*==================================================================================*/
+
+/*============================footer======================================*/
+footer
+{
+    text-align: center;
+    font-size: 1.3rem;
+    color: #E1E5E8;
+    background-color: #1F2937;
+    padding: 1% 0%;
+    margin-top: 13px;
+}
+
+/*================== Phone Styling Section =========================================*/
+
+@media(max-width: 576px)
+{
+    header
+    {
+        padding: 2% 5%;
+        position: sticky;
+        top: 0px;
+    }
+    header nav
+    {
+        display: none;
+    }
+    main .hero{
+        background: none;
+        flex-direction: column;
+        padding: 5% 0%;
+        text-align: center;
+    }
+    .header-container-homepage
+    {
+        background: #F6F4F5;
+        padding: 10% 5%;
+        text-align: center;
+    }    
+    .header-container-homepage h1,
+    .header-container-homepage h2
+    {
+        font-size: 1.6rem;
+        color: black;
+    }
+    .header-container-homepage p
+    {
+        color: black;        
+    }
+    .services-container
+    {
+        margin: 20px 5%;
+    }
+    .service-container1
+    {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .service-class
+    {
+        margin-bottom: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    footer
+    {
+        padding: 3% 0%;
+    }
 }
  
