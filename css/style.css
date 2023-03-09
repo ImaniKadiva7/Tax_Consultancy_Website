@@ -191,10 +191,6 @@ footer
         justify-content: space-between;
         align-items: center;
     }
-    header nav
-    {
-        /*display: none;*/
-    }
     main .hero{
         background: none;
         flex-direction: column;
